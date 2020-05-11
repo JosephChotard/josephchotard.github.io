@@ -1,0 +1,43 @@
+.content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    background: radial-gradient(140.72% 140.72% at 50% 153.89%, #f2c94c 0%, #f2994a 85.56%, #eb5757 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .name {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        margin: 0;
+        text-transform: capitalize;
+        font-size: 96px;
+        line-height: 112px;
+    }
+
+    .description {
+        color: #f8f8f8;
+        text-transform: capitalize;
+        font-family: 'Actor', sans-serif;
+        font-size: 36px;
+        line-height: 43px;
+        max-width: 50%;
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 40%;
+        .social-icon {
+            list-style: none;
+        }
+    }
+}
